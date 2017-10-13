@@ -6,6 +6,7 @@ class Avvoenv < Formula
   head "https://github.com/avvo/avvoenv.git"
 
   depends_on "rust" => :build
+  depends_on :ruby => "2.3"
 
   def install
     system "rake", "install", "PREFIX=#{prefix}"
