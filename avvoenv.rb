@@ -13,7 +13,7 @@ class Avvoenv < Formula
   end
 
   depends_on "rust" => :build
-  depends_on :ruby => "2.3"
+  depends_on "ruby" => :build
 
   def install
     system "rake", "install", "PREFIX=#{prefix}"
