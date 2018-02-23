@@ -6,6 +6,7 @@ class Rsh < Formula
   head "https://github.com/avvo/rsh.git"
 
   bottle do
+    root_url "https://github.com/avvo/rsh/releases/download/v0.1.2"
     sha256 "f3fafb22e973e6db2274749c6f7e3203d44913663b3dcbe7f244602052310ba5" => :sierra
     sha256 "0569c83c05297d86acfa5de4fea2400785ffb169d89df1d34cc6fecdd98a33e5" => :high_sierra
   end
